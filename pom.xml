@@ -39,7 +39,7 @@
                                 </filter>
                             </filters>
                             <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.XmlAppendingTransformer">
                                     <resource>applicationContext.xml</resource>
                                 </transformer>
                             </transformers>
